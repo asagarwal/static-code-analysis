@@ -1,5 +1,7 @@
 @isTest
-private class AA_SampleApexClassTest {
+private class SampleApexClassTest {
+    
+    // This test class has no assert statement. This should be detected by Static Code Analysis Tools
     @isTest static void testContactUpdate()
      {
        // Create Account Record
@@ -17,6 +19,6 @@ private class AA_SampleApexClassTest {
        }
        insert contactList ;
 
-       AA_SampleApexClass.updateContacts(accountRec.Id);      
+       SampleApexClass.updateContacts(accountRec.Id);      
     }
 }
