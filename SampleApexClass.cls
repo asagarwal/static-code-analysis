@@ -1,4 +1,4 @@
-public with sharing class AA_SampleApexClass {
+public with sharing class SampleApexClass {
 
     public static void updateContacts(Id accountId) {
 
